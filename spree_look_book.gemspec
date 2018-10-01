@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 3.1.1'  
-  s.add_runtime_dependency 'spree_backend', '3.1.1'
+  s.add_runtime_dependency 'spree_backend', '~> 3.1.1'
 
 
   s.add_development_dependency 'capybara', '~> 2.6'
